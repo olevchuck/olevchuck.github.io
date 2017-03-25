@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Gotham Rounded";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./fonts/GothamRounded-Medium.otf"); }
+* {
+  font-family: "Gotham Rounded";
+  padding: 0;
+  margin: 0;
+  outline: 0; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.page-wrapper {
+  width: 1280px;
+  margin: auto;
+  position: relative; }
+
+.block-1 {
+  z-index: 1;
+  position: relative;
+  background-image: url("fon.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 745px; }
+  .block-1__top {
+    position: relative;
+    padding: 66px 0;
+    color: white;
+    text-transform: uppercase; }
+    .block-1__top .menu {
+      z-index: 300;
+      margin-left: 270px;
+      list-style: none; }
+      .block-1__top .menu li {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 3px; }
+        .block-1__top .menu li:nth-child(1) {
+          margin-left: -2px;
+          margin-right: 52px; }
+        .block-1__top .menu li:nth-child(3) {
+          margin-top: -25px;
+          margin-left: 83px;
+          margin-right: 93px; }
+        .block-1__top .menu li:nth-child(5) {
+          margin-left: 67px; }
+  .block-1__central {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: white; }
+  .block-1__bottom {
+    position: absolute;
+    left: 47%;
+    bottom: 20px;
+    word-spacing: 15px; }
+
+button {
+  position: relative;
+  width: 166px;
+  height: 49px;
+  border-radius: 3px;
+  background-color: #16a085;
+  margin-top: 25px;
+  color: white; }
+
+#datainsecondblock {
+  position: relative;
+  padding: 115px; }
+
+.secondblock {
+  margin: auto;
+  background-image: url("fon2.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 494px;
+  width: 1245px; }
+
+/*# sourceMappingURL=styles.css.map */

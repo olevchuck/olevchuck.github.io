@@ -1,0 +1,330 @@
+@font-face {
+  font-family: 'Gotham Rounded';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/GothamRounded-Medium.otf"); }
+
+@font-face {
+  font-family: 'Gotham Rounded Light';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/GothamRoundedLight_21020.ttf"); }
+
+* {
+  font-family: 'Gotham Rounded';
+  padding: 0;
+  margin: 0;
+  outline: 0; }
+
+p {
+  font-family: 'Gotham Rounded Light';
+  padding: 0;
+  margin: 0;
+  outline: 0; }
+
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: #16a085;
+  color: white; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.page-wrapper {
+  width: 1280px;
+  margin: auto;
+  position: relative;
+  background-color: white; }
+
+.block-1 {
+  z-index: 1;
+  position: relative;
+  background-image: url("../img/fon.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 745px; }
+  .block-1__top {
+    position: relative;
+    padding: 70px 0;
+    color: white;
+    text-transform: uppercase; }
+    .block-1__top .menu {
+      z-index: 300;
+      margin-left: 270px;
+      list-style: none; }
+      .block-1__top .menu li {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 3px; }
+        .block-1__top .menu li:nth-child(1) {
+          margin-left: 1px;
+          margin-right: 56px; }
+        .block-1__top .menu li:nth-child(3) {
+          margin-top: -25px;
+          margin-left: 95px;
+          margin-right: 88px; }
+        .block-1__top .menu li:nth-child(5) {
+          margin-left: 67px; }
+      .block-1__top .menu__cameraicon {
+        margin-top: -27px; }
+  .block-1__central {
+    padding-left: 395px;
+    position: absolute;
+    top: 333px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 5px; }
+    .block-1__central #small {
+      position: relative;
+      margin-top: 8px;
+      margin-left: -4px;
+      font-size: 15px;
+      letter-spacing: 3px; }
+    .block-1__central button {
+      position: absolute;
+      width: 166px;
+      height: 49px;
+      bottom: 267px;
+      left: 558px;
+      letter-spacing: 1px; }
+  .block-1__bottom {
+    position: absolute;
+    left: 589px;
+    bottom: 22px;
+    word-spacing: 11px; }
+
+.secondblock, .thirdblock {
+  margin: auto;
+  height: 494px;
+  background-image: url("../img/fon2.png");
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+  .secondblock__data, .thirdblock__data {
+    position: relative;
+    padding: 129px;
+    top: -22px; }
+    .secondblock__data__h3, .thirdblock__data__h3 {
+      margin-left: 1px;
+      margin-top: 1px;
+      margin-bottom: 46px;
+      font-weight: 700;
+      letter-spacing: 2.2px;
+      text-transform: uppercase; }
+    .secondblock__data__paragraph, .thirdblock__data__paragraph {
+      font-size: 12px;
+      margin-top: -8px;
+      margin-left: 0px;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      line-height: 24px; }
+    .secondblock__data button, .thirdblock__data button {
+      position: relative;
+      width: 193px;
+      height: 51px;
+      margin-top: 40px;
+      left: -1px;
+      letter-spacing: 1px;
+      font-size: 13px;
+      padding-top: 8px; }
+
+.thirdblock {
+  margin: auto;
+  position: relative;
+  height: 558px;
+  background-image: url("../img/fon3.png");
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+  .thirdblock__data {
+    left: 50%; }
+    .thirdblock__data__h3 {
+      margin-top: 33px;
+      margin-left: -2px; }
+    .thirdblock__data__paragraph {
+      margin-top: -11px;
+      margin-left: 0px;
+      line-height: 22px; }
+    .thirdblock__data button {
+      margin-top: 34px;
+      margin-left: -2px; }
+    .thirdblock__data__sliders {
+      position: relative;
+      margin-top: 41px;
+      margin-left: -2px;
+      line-height: 22px;
+      font-size: 24px;
+      word-spacing: 8px; }
+      .thirdblock__data__sliders__number {
+        font-size: 12px;
+        letter-spacing: 1.6px; }
+
+.fourthblock {
+  position: relative;
+  height: 483px;
+  background-color: #f5f6f7;
+  display: flex; }
+  .fourthblock__info {
+    padding-top: 163px;
+    padding-left: 3px;
+    text-align: center;
+    flex: 0.9; }
+    .fourthblock__info__camera {
+      position: absolute;
+      left: 129px; }
+      .fourthblock__info__camera__title {
+        font-size: 16px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        margin-bottom: -10px;
+        line-height: 64px; }
+      .fourthblock__info__camera p {
+        font-size: 10px;
+        margin-top: 7px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        margin-left: 3px;
+        line-height: 12px;
+        color: #373737; }
+  .fourthblock__picture1 {
+    padding-top: 118px;
+    margin-left: -18px;
+    flex: 1; }
+  .fourthblock__picture2 {
+    flex: 1; }
+    .fourthblock__picture2__image {
+      padding-top: 88px;
+      position: relative;
+      left: -53px; }
+    .fourthblock__picture2__sliders {
+      position: relative;
+      text-align: right;
+      bottom: -84px;
+      left: -129px;
+      word-spacing: 9px;
+      font-size: 22px; }
+
+.fifthblock {
+  background-image: url("../img/fon5.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 790px;
+  position: relative; }
+  .fifthblock__mainblock {
+    position: absolute;
+    top: 43.7%;
+    left: 36.5%; }
+    .fifthblock__mainblock__form {
+      width: 345px; }
+      .fifthblock__mainblock__form__input {
+        border: none;
+        position: relative;
+        width: 261px;
+        height: 60px;
+        padding-left: 21px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        word-spacing: -3px; }
+        .fifthblock__mainblock__form__input::-webkit-input-placeholder {
+          color: black; }
+      .fifthblock__mainblock__form__buttonforform {
+        float: right;
+        position: relative;
+        width: 63px;
+        height: 60px; }
+    .fifthblock__mainblock__title {
+      color: white;
+      font-size: 24px;
+      margin-bottom: 32px;
+      letter-spacing: 3px;
+      word-spacing: 4px;
+      margin-left: -62px; }
+
+.block6 {
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  padding-top: 85px;
+  background-color: #f5f6f7;
+  height: 396px;
+  position: relative; }
+  .block6__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 3px; }
+  .block6__description {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 45px;
+    letter-spacing: 2px;
+    word-spacing: -1px;
+    line-height: 20.9px; }
+  .block6__forapple, .block6__forandroid {
+    display: inline-block;
+    position: absolute;
+    width: 296px;
+    height: 55px; }
+    .block6__forapple__temp, .block6__forandroid__temp {
+      border-radius: 0px;
+      background-color: #16a085;
+      height: 56px;
+      width: 56px; }
+  .block6__forapple {
+    top: 223px;
+    left: 331px; }
+    .block6__forapple__applestore {
+      text-align: left;
+      padding-left: 23px;
+      padding-top: 2px;
+      letter-spacing: 2px;
+      word-spacing: 3px; }
+  .block6__forandroid {
+    top: 223px;
+    left: 653px; }
+    .block6__forandroid__playstore {
+      text-align: left;
+      padding-left: 32px;
+      letter-spacing: 4px;
+      word-spacing: -1px; }
+  .block6__forapple__applestore, .block6__forandroid__playstore {
+    text-transform: uppercase;
+    border-radius: 0px;
+    float: left;
+    position: relative;
+    width: 240px;
+    height: 56px;
+    font-size: 16px;
+    background-color: #1abc9c; }
+
+.footer {
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 126px;
+  padding-top: 40px;
+  padding-right: 129px;
+  height: 131px;
+  padding-bottom: 35px; }
+  .footer__menu {
+    list-style: none;
+    word-spacing: 1px;
+    margin-bottom: 20px; }
+    .footer__menu li {
+      letter-spacing: 2px;
+      margin-left: 1px;
+      display: inline-block;
+      font-size: 14px; }
+  .footer__camera {
+    float: right;
+    width: 53px;
+    height: 55px;
+    margin-top: -42px; }
+  .footer p {
+    position: absolute;
+    width: 402px;
+    font-size: 14px;
+    letter-spacing: 2.6px;
+    word-spacing: -1px; }
