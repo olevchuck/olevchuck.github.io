@@ -68,6 +68,7 @@ a, a:hover {
         .block-1__top .menu li:nth-child(5) {
           margin-left: 67px; }
       .block-1__top .menu__cameraicon {
+        transform: translateY(25%);
         margin-top: -27px; }
   .block-1__central {
     padding-left: 395px;
